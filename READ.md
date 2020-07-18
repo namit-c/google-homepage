@@ -1,1 +1,0 @@
-This project consists of constructing a the Google homepage using HTML and CSS. This project is the first time I apply HTML and CSS, therefore I'm able to learn a lot throughout the process.
