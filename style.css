@@ -1,0 +1,13 @@
+#google-logo{
+    display: block;
+    text-align: center;
+}
+
+.search-bar{
+    text-align: center;
+}
+
+#input-bar{
+    border-radius: 10px;
+    border-width: 1px;
+}
