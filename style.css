@@ -1,21 +1,28 @@
 #google-logo{
     display: block;
-    text-align: center;
 }
 
 .main-components{
     margin-top: 200px;
-}
-
-.search-bar{
     text-align: center;
 }
 
+
 #input-bar{
-    padding: 14px 220px;
+    width: 500px;
+    font-size: 17px;
+    padding: 11px 50px;
     border-radius: 25px;
     border-width: 0.5px;
     border-color: #d4d4d4;
     border-style: solid;
     margin-top: 25px;
+}
+
+button{
+    border: none;
+}
+
+.buttons{
+    color: lightgray;
 }
