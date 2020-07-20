@@ -27,6 +27,11 @@ body{
     outline: none;
 }
 
+#input-bar:hover{
+    box-shadow: 0 0.5px 5px 1px #c3c3c3;
+    border: 0.5px solid transparent;
+}
+
 button{
     border: 1px solid transparent;
 }
