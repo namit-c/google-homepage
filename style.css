@@ -4,10 +4,12 @@ body{
 
 .header{
     display: inline;
+    font-size: 12.5px;
 }
 
+
 .non-button{
-    color: #383838;
+    color: #2b2b2b;
     text-decoration: none;
 }
 
