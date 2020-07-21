@@ -2,8 +2,17 @@ body{
     font-family: arial, sans-serif;
 }
 
-#google-logo{
-    display: block;
+.header{
+    display: inline;
+}
+
+#sign-in{
+    background-color: #5d87ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 2px;
 }
 
 .main-components{
@@ -12,19 +21,30 @@ body{
 }
 
 
+#google-logo{
+    display: block;
+}
+
+
 #input-bar{
-    width: 500px;
+    width: 490px;
     font-size: 17px;
-    padding: 11px 35px;
+    padding: 13px 45px;
     border-radius: 25px;
     border-width: 0.5px;
     border-color: #d4d4d4;
     border-style: solid;
     margin-top: 25px;
+    background-image: url(searchicon.jpg);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: 18px 15.5px;
 }
 
 #input-bar:focus{
     outline: none;
+    box-shadow: 0 0.5px 5px 1px #c3c3c3;
+
 }
 
 #input-bar:hover{
@@ -60,4 +80,12 @@ button:hover{
     font-size: 13px;
     color: #333333;
     margin-top: 30px;
+}
+
+#french-link{
+    text-decoration: none;
+}
+
+#french-link:hover{
+    text-decoration: underline;
 }
