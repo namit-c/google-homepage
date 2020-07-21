@@ -6,6 +6,15 @@ body{
     display: inline;
 }
 
+.non-button{
+    color: #383838;
+    text-decoration: none;
+}
+
+.non-button:hover{
+    text-decoration: underline;
+}
+
 #sign-in{
     background-color: #5d87ff;
     color: white;
