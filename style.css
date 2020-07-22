@@ -4,9 +4,8 @@ body{
 
 ul{
     display: flex;
-    width: 100%;
-    justify-content: flex-start;
-    margin-top: 23px;
+    align-items: center;
+    margin-top: 16px;
     margin-left: -22px;}
 
 .header{
@@ -16,7 +15,7 @@ ul{
 
 
 .non-button{
-    color: #545454;
+    color: #4c4c4c;
     text-decoration: none;
 }
 
@@ -25,26 +24,44 @@ ul{
 }
 
 #sign-in{
-    background-color: #5d87ff;
+    border: none;
+    background-color: #4285f4;
     color: white;
     font-weight: bold;
-    border: none;
-    padding: 7px 12px;
+    padding: 7.5px 12px;
     border-radius: 2px;
+}
+
+#sign-in:hover{
+    cursor: default;
 }
 
 /*Code for the navbar spacing*/
 #about-btn{
     width: 50px;
+    margin-left: -1px;
 }
 
 #store-btn{
-    width: 20%;
+    margin-right: auto;
+    margin-left: -1px;
 }
 
+#gmail-btn{
+    margin-right: 10px;
+}
 
+#images-btn{
+    margin-right: 10px;
+}
 
+#other-btn{
+    margin-right: 10px;
+}
 
+#signin-btn{
+    margin-right: 22px;
+}
 /*------------------*/
 
 .main-components{
