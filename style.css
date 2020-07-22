@@ -2,14 +2,21 @@ body{
     font-family: arial, sans-serif;
 }
 
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 23px;
+    margin-left: -22px;}
+
 .header{
     display: inline;
-    font-size: 12.5px;
+    font-size: 13px;
 }
 
 
 .non-button{
-    color: #2b2b2b;
+    color: #545454;
     text-decoration: none;
 }
 
@@ -25,6 +32,20 @@ body{
     padding: 7px 12px;
     border-radius: 2px;
 }
+
+/*Code for the navbar spacing*/
+#about-btn{
+    width: 50px;
+}
+
+#store-btn{
+    width: 20%;
+}
+
+
+
+
+/*------------------*/
 
 .main-components{
     margin-top: 200px;
