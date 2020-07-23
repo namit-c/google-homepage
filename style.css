@@ -2,7 +2,7 @@ body{
     font-family: arial, sans-serif;
 }
 
-ul{
+.navbar{
     display: flex;
     align-items: center;
     margin-top: 16px;
@@ -13,7 +13,7 @@ ul{
     font-size: 13px;
 }
 
-
+/*Applies to all the non-buttons in the header and footer*/
 .non-button{
     color: #4c4c4c;
     text-decoration: none;
@@ -22,6 +22,8 @@ ul{
 .non-button:hover{
     text-decoration: underline;
 }
+
+/*--------------------------------------------------------*/
 
 #apps{
     background: url(Googleappsicon.png);
@@ -152,3 +154,45 @@ button:hover{
 #french-link:hover{
     text-decoration: underline;
 }
+
+.footerbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 0px;
+    background-color: #eaeaea;
+    border-top: 1px;
+    border-color: gray;
+}
+
+.footer{
+    display: inline;
+    font: 13px !important;
+}
+
+/*Spacing for the footer*/
+#ad-btn{
+
+}
+
+#bussiness-btn{
+
+}
+
+#how-btn{
+    margin-right: auto;
+}
+
+#privacy-btn{
+
+}
+
+#terms-btn{
+
+}
+
+#setting-btn{
+
+}
+/*----------------------*/
