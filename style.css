@@ -156,6 +156,28 @@ button:hover{
     text-decoration: underline;
 }
 
+#country-footer{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-top: 1px solid;
+    border-color: rgb(230 230 230);
+    padding-left: 30px;
+    padding-bottom: 1px;
+    left: 0px;
+    right: 0px;
+    bottom: 40px;
+    height: 40px;
+}
+
+#country{
+    font-size: 15px;
+    color: #757576;
+    position: relative;
+    bottom: 1px;
+}
+
 .footerbar{
     display: flex;
     align-items: center;
@@ -166,7 +188,7 @@ button:hover{
     right: 0;
     background-color: #f1f1f1;
     border-top: 1px solid;
-    border-color: rgb(218 218 218);
+    border-color: rgb(230 230 230);
     padding-left: 30px;
 }
 
