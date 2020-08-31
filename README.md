@@ -3,5 +3,5 @@ This project consists of constructing a the Google homepage using HTML and CSS. 
 ## Source for the images used:
 [Search Icon](https://icon-library.com/icon/google-search-icon-7.html)  
 [Favicon Image](https://commons.wikimedia.org/wiki/File:Google_%22G%22_Logo.svg)  
-[Favicon Generator](https://realfavicongenerator.net/)
+[Favicon Generator](https://realfavicongenerator.net/)  
 Google apps icon: made using photoshop
